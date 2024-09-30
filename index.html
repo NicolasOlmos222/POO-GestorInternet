@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Bancario Simple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sistema Bancario Simple</h1>
+    <h2>Iniciar usuario:</h2>
+    <form>
+        <label for="nombre">nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="contrato">Num contrato:</label>
+        <input type="number" id="contrato" name="contrato">
+        </form>
+        <button onclick="iniciarUsuario()">INICIAR USUARIO</button>
+    
+    <form>
+        <label for="precio">Precio nuevo:</label>
+        <input type="number" id="precio" name="precio">
+        <button onclick="cambiarPrecio()">CAMBIAR PRECIO</button>
+    </form>
+
+    <h3 id = "info"></h3>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
